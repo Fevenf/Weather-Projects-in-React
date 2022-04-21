@@ -1,0 +1,94 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #255;
+  background-image: url('pic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app {
+background-color:  #000000d0;
+color:white;
+padding: 2em;
+border-radius: 30px;
+width: 100%;
+max-width: 420px;
+margin: 1em;
+opacity: 0.5;
+
+} 
+.location-holder .location{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  text-shadow: 2px 2px 4px #0c0b0b;
+  padding: 10px 0px 10px 0px;
+}
+.weather-holder .temp {
+  padding: 15px 25 px;
+  font-weight: 900;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container> div {
+  background-color: transparent;
+}
+
+.container > input {
+  margin-left: 10px;
+}
+
+.submit{
+  margin: .5em;
+  border-radius: 50%;
+  border: none;
+  height: 2.5em;
+  width: 2.em;
+  outline: none;
+  padding: .8em;
+  background: #7c7c7c;
+  color: white;
+}
+.submit:hover{
+  background: #7c7c7c6b;
+}
+.searchbar{
+ border:none ;
+ outline: none;
+ padding: 0.5em 1em;
+ border-radius: 24px;
+ background: #7c7c7c;
+ color: white;
+ font-family: inherit;
+ font-size: 120%;
+ width: calc(100% - 100px);
+}
+.searchbar{
+  color: black;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  font-size: 30px;
+  flex-direction: column-reverse;
+}
+.header{
+  top: 0;
+  position:absolute;
+  padding: 10px 0;
+  display:flex;
+  color:black;
+}
